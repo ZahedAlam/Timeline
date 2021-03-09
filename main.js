@@ -1,7 +1,7 @@
 const items = document.querySelectorAll('#timeline li');
 
 const isInViewport = el => {
-    const rect = el.getBoundingClientrect();
+    const rect = el.getBoundingClientRect();
     return (
         rect.top >= 0 &&
         rect.left >= 0 &&
